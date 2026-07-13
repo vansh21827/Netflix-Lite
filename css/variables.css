@@ -1,0 +1,60 @@
+:root{
+
+    /* Brand */
+
+    --primary:#E50914;
+    --primary-hover:#ff1f2d;
+
+    /* Background */
+
+    --bg:#070707;
+    --surface:#121212;
+    --surface-light:#1c1c1c;
+
+    /* Text */
+
+    --white:#ffffff;
+    --text:#d7d7d7;
+    --muted:#8f8f8f;
+
+    /* Borders */
+
+    --border:#292929;
+
+    /* Rating */
+
+    --rating:#FFD54F;
+
+    /* Success */
+
+    --success:#22c55e;
+
+    /* Error */
+
+    --danger:#ef4444;
+
+    /* Radius */
+
+    --radius-sm:8px;
+    --radius:16px;
+    --radius-lg:22px;
+
+    /* Shadows */
+
+    --shadow:
+
+        0 12px 40px rgba(0,0,0,.45);
+
+    /* Width */
+
+    --container:1320px;
+
+    /* Transition */
+
+    --transition:.3s ease;
+
+    /* Font */
+
+    --font:'Poppins',sans-serif;
+
+}

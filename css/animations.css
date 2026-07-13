@@ -1,0 +1,290 @@
+/* ==========================================================
+   KEYFRAMES
+========================================================== */
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(20px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+@keyframes slideInRight {
+
+    from {
+
+        transform: translateX(100%);
+
+    }
+
+    to {
+
+        transform: translateX(0);
+
+    }
+
+}
+
+@keyframes slideOutRight {
+
+    from {
+
+        transform: translateX(0);
+
+    }
+
+    to {
+
+        transform: translateX(100%);
+
+    }
+
+}
+
+@keyframes zoomIn {
+
+    from {
+
+        opacity: 0;
+
+        transform: scale(.9);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: scale(1);
+
+    }
+
+}
+
+@keyframes spin {
+
+    from {
+
+        transform: rotate(0deg);
+
+    }
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+@keyframes toastShow {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(30px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+@keyframes pulse {
+
+    0% {
+
+        transform: scale(1);
+
+    }
+
+    50% {
+
+        transform: scale(1.05);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+    }
+
+}
+
+/* ==========================================================
+   PAGE
+========================================================== */
+
+body {
+
+    animation: fadeIn .6s ease;
+
+}
+
+/* ==========================================================
+   MOVIE CARD
+========================================================== */
+
+.movie-card {
+
+    animation: fadeIn .45s ease;
+
+}
+
+.movie-card:hover {
+
+    transition: transform .3s ease,
+                box-shadow .3s ease;
+
+    box-shadow:
+
+        0 20px 45px rgba(0,0,0,.55);
+
+}
+
+/* ==========================================================
+   FAVORITE BUTTON
+========================================================== */
+
+.favorite-btn {
+
+    transition: .3s;
+
+}
+
+.favorite-btn:hover {
+
+    transform: scale(1.15);
+
+}
+
+/* ==========================================================
+   SIDEBAR
+========================================================== */
+
+.favorites-sidebar.open {
+
+    animation: slideInRight .35s ease;
+
+}
+
+/* ==========================================================
+   MODAL
+========================================================== */
+
+.movie-modal.show .modal-content {
+
+    animation: zoomIn .3s ease;
+
+}
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+button {
+
+    transition:
+
+        background .3s,
+
+        transform .3s,
+
+        color .3s;
+
+}
+
+button:hover {
+
+    transform: translateY(-2px);
+
+}
+
+button:active {
+
+    transform: scale(.97);
+
+}
+
+/* ==========================================================
+   INPUT
+========================================================== */
+
+input {
+
+    transition:
+
+        border-color .3s,
+
+        box-shadow .3s;
+
+}
+
+input:focus {
+
+    box-shadow:
+
+        0 0 0 3px rgba(229,9,20,.25);
+
+}
+
+/* ==========================================================
+   TOAST
+========================================================== */
+
+.toast.show {
+
+    animation: toastShow .35s ease;
+
+}
+
+/* ==========================================================
+   LOADER
+========================================================== */
+
+.spinner {
+
+    animation: spin .9s linear infinite;
+
+}
+
+/* ==========================================================
+   BADGE
+========================================================== */
+
+.badge {
+
+    animation: pulse 2s infinite;
+
+}
+
+/* ==========================================================
+   FADE UTILITY
+========================================================== */
+
+.fade-in {
+
+    animation: fadeIn .5s ease;
+
+}

@@ -1,0 +1,293 @@
+/* ==========================================================
+   CONTAINER
+========================================================== */
+
+.container {
+
+    width: min(92%, var(--container));
+
+    margin: 0 auto;
+
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.header {
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+    background: rgba(7, 7, 7, 0.95);
+
+    backdrop-filter: blur(10px);
+
+    border-bottom: 1px solid var(--border);
+
+}
+
+.navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    height: 80px;
+
+}
+
+/* ==========================================================
+   HERO
+========================================================== */
+
+.hero {
+
+    padding: 80px 0 50px;
+
+    text-align: center;
+
+}
+
+.hero-content {
+
+    max-width: 760px;
+
+    margin: auto;
+
+}
+
+.hero-content h1 {
+
+    font-size: clamp(2.4rem, 5vw, 4rem);
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+
+}
+
+.hero-content p {
+
+    font-size: 1.05rem;
+
+    color: var(--text);
+
+    line-height: 1.8;
+
+}
+
+/* ==========================================================
+   SEARCH
+========================================================== */
+
+.search-section {
+
+    margin-bottom: 60px;
+
+}
+
+.search-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+
+}
+
+/* ==========================================================
+   MOVIES
+========================================================== */
+
+.movie-section {
+
+    padding-bottom: 80px;
+
+}
+
+.section-header {
+
+    margin-bottom: 30px;
+
+}
+
+.section-header h2 {
+
+    font-size: 2rem;
+
+}
+
+.movies-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+
+    gap: 28px;
+
+}
+
+/* ==========================================================
+   SCROLL SENTINEL
+========================================================== */
+
+#scrollSentinel {
+
+    height: 20px;
+
+}
+
+/* ==========================================================
+   FAVORITES SIDEBAR
+========================================================== */
+
+.favorites-sidebar {
+
+    position: fixed;
+
+    top: 0;
+
+    right: -420px;
+
+    width: 400px;
+
+    height: 100vh;
+
+    background: var(--surface);
+
+    border-left: 1px solid var(--border);
+
+    transition: var(--transition);
+
+    z-index: 2000;
+
+    overflow-y: auto;
+
+}
+
+.favorites-sidebar.open {
+
+    right: 0;
+
+}
+
+.favorites-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 25px;
+
+    border-bottom: 1px solid var(--border);
+
+}
+
+.favorites-list {
+
+    padding: 20px;
+
+}
+
+/* ==========================================================
+   MODAL
+========================================================== */
+
+.movie-modal {
+
+    position: fixed;
+
+    inset: 0;
+
+    display: none;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: rgba(0, 0, 0, .85);
+
+    backdrop-filter: blur(8px);
+
+    z-index: 3000;
+
+}
+
+.movie-modal.show {
+
+    display: flex;
+
+}
+
+.modal-content {
+
+    width: min(95%, 1000px);
+
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    background: var(--surface);
+
+    border-radius: var(--radius);
+
+    padding: 30px;
+
+    position: relative;
+
+}
+
+/* ==========================================================
+   LOADER
+========================================================== */
+
+.loader {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 70px 0;
+
+}
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+footer {
+
+    padding: 40px 0;
+
+    border-top: 1px solid var(--border);
+
+    text-align: center;
+
+    color: var(--muted);
+
+}
+
+/* ==========================================================
+   UTILITIES
+========================================================== */
+
+.hidden {
+
+    display: none !important;
+
+}

@@ -1,0 +1,269 @@
+/* ==========================================================
+   LARGE LAPTOPS
+========================================================== */
+
+@media (max-width: 1200px) {
+
+    .movies-grid {
+
+        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+
+    }
+
+    .modal-body {
+
+        grid-template-columns: 280px 1fr;
+
+    }
+
+}
+
+/* ==========================================================
+   TABLETS
+========================================================== */
+
+@media (max-width: 992px) {
+
+    .navbar {
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        gap: 20px;
+
+        height: auto;
+
+        padding: 20px 0;
+
+    }
+
+    .hero {
+
+        padding: 60px 0 40px;
+
+    }
+
+    .hero-content h1 {
+
+        font-size: 2.8rem;
+
+    }
+
+    .search-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .movies-grid {
+
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+    }
+
+    .modal-body {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .modal-body img {
+
+        max-width: 320px;
+
+        margin: auto;
+
+    }
+
+}
+
+/* ==========================================================
+   SMALL TABLETS
+========================================================== */
+
+@media (max-width: 768px) {
+
+    .nav {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+    }
+
+    .nav-btn {
+
+        width: 100%;
+
+    }
+
+    .hero-content h1 {
+
+        font-size: 2.2rem;
+
+    }
+
+    .hero-content p {
+
+        font-size: .95rem;
+
+    }
+
+    .movies-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 20px;
+
+    }
+
+    .movie-poster img {
+
+        height: 300px;
+
+    }
+
+    .favorites-sidebar {
+
+        width: 100%;
+
+        right: -100%;
+
+    }
+
+    .modal-content {
+
+        width: 95%;
+
+        padding: 20px;
+
+    }
+
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 576px) {
+
+    .container {
+
+        width: 95%;
+
+    }
+
+    .logo {
+
+        font-size: 1.3rem;
+
+    }
+
+    .logo i {
+
+        font-size: 1.4rem;
+
+    }
+
+    .hero {
+
+        padding: 40px 0;
+
+    }
+
+    .hero-content h1 {
+
+        font-size: 1.9rem;
+
+    }
+
+    .search-card {
+
+        padding: 18px;
+
+    }
+
+    .input-group {
+
+        flex-direction: column;
+
+    }
+
+    .input-group button {
+
+        width: 100%;
+
+        height: 50px;
+
+    }
+
+    .movies-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .movie-poster img {
+
+        height: 380px;
+
+    }
+
+    .favorite-item {
+
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+
+    }
+
+    .favorite-item img {
+
+        width: 120px;
+
+        height: 170px;
+
+    }
+
+    .section-header h2 {
+
+        font-size: 1.5rem;
+
+    }
+
+}
+
+/* ==========================================================
+   EXTRA SMALL DEVICES
+========================================================== */
+
+@media (max-width: 360px) {
+
+    .hero-content h1 {
+
+        font-size: 1.6rem;
+
+    }
+
+    .hero-content p {
+
+        font-size: .9rem;
+
+    }
+
+    .movie-poster img {
+
+        height: 320px;
+
+    }
+
+    .modal-content {
+
+        padding: 15px;
+
+    }
+
+}
