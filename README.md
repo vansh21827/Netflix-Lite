@@ -29,14 +29,11 @@ https://netflix-lite-orpin.vercel.app/
 ---
 
 ## 📷 Preview
-
-> Add screenshots here after deployment.
-
-- Home Page
-- Movie Search
-- Movie Details Modal
-- Favorites Sidebar
-- Mood Matcher
+<img width="1888" height="888" alt="Screenshot 2026-07-14 130546" src="https://github.com/user-attachments/assets/bf036e35-79bb-4de5-acd6-b15127832e7d" />
+<img width="1877" height="900" alt="Screenshot 2026-07-14 130617" src="https://github.com/user-attachments/assets/9a64b76d-82d9-4e8b-b1ee-dcd3cd6c5c66" />
+<img width="1842" height="892" alt="Screenshot 2026-07-14 130649" src="https://github.com/user-attachments/assets/3ef42a6d-3a79-49cc-bab3-9fea3c698a5a" />
+<img width="1156" height="598" alt="Screenshot 2026-07-14 130713" src="https://github.com/user-attachments/assets/f654db2d-95ae-4f02-8859-c97b3b1dc611" />
+<img width="1847" height="910" alt="Screenshot 2026-07-14 130808" src="https://github.com/user-attachments/assets/8c84da1a-a893-4b23-b758-e7c4c62a8c82" />
 
 ---
 
@@ -247,58 +244,6 @@ If no Gemini API key is provided, the application uses the built-in fallback rec
 
 ---
 
-# 🚀 Deployment
-
-Deploy easily using
-
-- Vercel
-- Netlify
-- GitHub Pages
-
----
-
-# 📋 Sprint Deliverables
-
-## ✅ Phase 1
-
-- TMDB API Integration
-- Popular Movies
-- Search Movies
-- Responsive Layout
-
----
-
-## ✅ Phase 2
-
-- Infinite Scroll
-- Debounced Search
-- Favorites
-- Local Storage
-
----
-
-## ✅ Phase 3
-
-- Lazy Loading
-- AI Mood Matcher
-- Error Handling
-- Responsive Design
-
----
-
-# 📊 Performance Optimizations
-
-- ES6 Modules
-- Modular Architecture
-- Debounced API Calls
-- Infinite Scrolling
-- Native Lazy Loading
-- Local Storage
-- AbortController for Fetch Requests
-- Graceful API Error Handling
-
----
-
 # 🎯 Future Improvements
 
 - Genre Filters
@@ -363,21 +308,10 @@ git push origin feature-name
 
 ---
 
-# 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 # 👨‍💻 Author
 
 **Vansh Bansal**
-
-GitHub:
-https://github.com/vansh21827
-
-LinkedIn:
-https://www.linkedin.com/in/vanshbansal/
 
 ---
 
